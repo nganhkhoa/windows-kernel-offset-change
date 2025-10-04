@@ -1,0 +1,56 @@
+{
+    "4f4e0772425290d60c20b8d32800fb41ffb1a6a6b1edf710c27bf487ada50f52": {
+    "fileInfo": {
+        "description": "NT Kernel & System",
+        "machineType": 34404,
+        "md5": "4d58d3a7e9a87c08a93814911089a2ee",
+        "sha1": "3eb7291850d6c8f4457b3caea422beff37d5e189",
+        "sha256": "4f4e0772425290d60c20b8d32800fb41ffb1a6a6b1edf710c27bf487ada50f52",
+        "signatureType": "Overlay",
+        "signingDate": [
+            "2025-09-26T02:04:00"
+        ],
+        "signingStatus": "Signed",
+        "size": 12953032,
+        "timestamp": 602770787,
+        "version": "10.0.26100.6725 (WinBuild.160101.0800)",
+        "virtualSize": 21299200
+    },
+    "windowsVersions": {
+        "11-24H2": {
+            "KB5065789": {
+                "assemblies": {
+                    "amd64_microsoft-windows-os-kernel_31bf3856ad364e35_10.0.26100.6725_none_07d369476440c874": {
+                        "assemblyIdentity": {
+                            "buildType": "release",
+                            "language": "neutral",
+                            "name": "Microsoft-Windows-OS-Kernel",
+                            "processorArchitecture": "amd64",
+                            "publicKeyToken": "31bf3856ad364e35",
+                            "version": "10.0.26100.6725",
+                            "versionScope": "nonSxS"
+                        },
+                        "attributes": [
+                            {
+                                "destinationPath": "$(runtime.system32)\\",
+                                "importPath": "$(build.nttree)\\",
+                                "name": "ntoskrnl.exe",
+                                "sourceName": "ntkrnlmp.exe"
+                            }
+                        ]
+                    }
+                },
+                "updateInfo": {
+                    "heading": "September 29, 2025&#x2014;KB5065789 (OS Build 26100.6725) Preview",
+                    "otherWindowsVersions": [
+                        "11-25H2"
+                    ],
+                    "releaseDate": "2025-09-29",
+                    "releaseVersion": "26100.6725",
+                    "updateUrl": "https://support.microsoft.com/help/5065789"
+                }
+            }
+        }
+    }
+}
+}
